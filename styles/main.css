@@ -1,8 +1,36 @@
 *{
-	margin:;
-	padding:;
+	margin:0;
+	padding:0;
 }
 
 header{
-	background-image:url(../images/bg-hero-desktop.svg);
+	padding:40px 50px;
+	background: url(../images/bg-hero-desktop.svg);
+	background-size:;
+	background-repeat:no-repeat;
+}
+
+.logo img{
+	max-width:150px;
+	height:auto;
+}
+
+.try-btn {
+	float:right;
+}
+
+.try-btn a{
+	float:right;
+	padding:5px 30px;
+	text-decoration:none;
+	font-size:1.1em;
+	color:#000;
+	background-color: #fff;
+	border-radius:20px;
+	box-shadow: 0px 1px 5px 0px #e0e0e0;
+}
+
+.container-two img{
+	max-width:45%;
+	height:auto;
 }
